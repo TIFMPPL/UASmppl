@@ -1,13 +1,17 @@
-
-public class Student {
-    private String name;
-    private String title;
-    private String address;
+class Student extends Person
+{
+    private String NIM;    // student ID number
 
     /**
-     * Constructor to create Student object
+     * Create a student with default settings for detail information.
      */
-    public Student() {
+
+    Student() {
+    	super("(unknown name)", 0000);
+    	NIM = "(unknown ID)";
+    }
+    
+/*public Student() {
 
     }
 

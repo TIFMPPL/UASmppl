@@ -1,14 +1,12 @@
-public class Person {
-    private String name;
-    private String title;
-    private String address;
+
+ abstract class Person {
 
     /**
      * Constructor to create Person object
      */
-    public Person() {
+    //public Person() {
 
-    }
+    //}
 
     /**
      * Constructor with parameter
@@ -100,4 +98,5 @@ public class Person {
                 "]";
     }
 }
+
 
